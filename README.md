@@ -1,4 +1,4 @@
-# 🚖 Mini Ride-Sharing Analytics Pipeline (Batch + Stream)
+# Mini Ride-Sharing Analytics Pipeline (Batch + Stream)
 
 This project simulates a simplified **data analytics pipeline** for a ride-sharing company to analyze **daily and hourly trends** in rides and revenue. It includes batch ETL, star schema modeling, simulated real-time streaming, and data quality checks using **Python, SQLite, and PySpark (optional)**.
 
@@ -27,10 +27,14 @@ This project simulates a simplified **data analytics pipeline** for a ride-shari
 
 Install dependencies (if needed):
 
-```bash
+```bash 
 pip install pandas
 
+```
+
 # Setup & Run
+
+```bash
 # 1. Generate Ride Data
 # Generates 1500 mock ride records with realistic fields.
 
@@ -66,6 +70,7 @@ python stream_simulator.py
 python data_quality.py
 
 
+```
 
 # Star Schema Design
 # fact_trips: Stores detailed ride info.
