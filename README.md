@@ -32,7 +32,7 @@ pip install pandas
 
 ```
 
-# Setup & Run
+## Setup & Run
 
 ```bash
 # 1. Generate Ride Data
@@ -72,9 +72,9 @@ python data_quality.py
 
 ```
 
-# Star Schema Design
-# fact_trips: Stores detailed ride info.
-# dim_drivers: Minimal driver metadata.
+## Star Schema Design
+### fact_trips: Stores detailed ride info.
+### dim_drivers: Minimal driver metadata.
 fact_trips
 -----------
 trip_id (PK)
